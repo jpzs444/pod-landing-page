@@ -1,0 +1,25 @@
+@use '../util/' as *;
+
+.cta {
+
+    padding: 0 rem(24) rem(94);
+
+    &__heading {
+        margin-bottom: rem(16);
+        color: var(--green-heading-button);
+        font-size: rem(26);
+        font-weight: var(--fw-light);
+        line-height: rem(38);
+        text-transform: uppercase;
+    }
+
+    &__heading-span {
+        color: var(--white-text);
+        display: block;
+    }
+
+    &__description {
+        line-height: rem(25);
+        margin-bottom: rem(33);
+    }
+}

@@ -1,0 +1,33 @@
+@use '../util/' as *;
+
+.cta {
+
+    &__images {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        place-items: center;
+        gap: rem(10);
+        margin-bottom: rem(48);
+        padding: 0 rem(6);
+    }
+
+    &__image {
+        display: inline-block;
+    }
+
+    &__spotify {
+        width: rem(56);
+    }
+
+    &__apple {
+        width: rem(45);
+    }
+
+    &__google {
+        width: rem(73);
+    }
+
+    &__pocket {
+        width: rem(77);
+    }
+}

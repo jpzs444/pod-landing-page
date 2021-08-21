@@ -1,0 +1,9 @@
+@use '../util/' as *;
+
+.cta {
+
+    &__error-msg {
+        color: var(--red-error);
+        font-size: rem(9);
+    }
+}
