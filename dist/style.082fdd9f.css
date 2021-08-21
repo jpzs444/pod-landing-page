@@ -34,12 +34,17 @@ body {
   font-size: 0.9375rem;
   font-weight: var(--fw-light);
   color: var(--light-gray-text);
+  text-align: center;
 }
 
 a,
 a:visited,
 a:active {
   text-decoration: none;
+}
+
+.header__container {
+  padding: 3.875rem 0 3.5625rem;
 }
 
 /*# sourceMappingURL=/style.082fdd9f.css.map */
