@@ -75,20 +75,51 @@ a:active {
   margin-bottom: 3rem;
   padding: 0 0.375rem;
 }
+@media only screen and (max-width: 21.375em) {
+  .cta__images {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 0.625rem 1.875rem;
+  }
+}
 .cta__image {
   display: inline-block;
 }
 .cta__spotify {
   width: 3.5rem;
 }
+@media only screen and (max-width: 21.375em) {
+  .cta__spotify {
+    margin-left: auto;
+    width: 4.0625rem;
+  }
+}
 .cta__apple {
   width: 2.8125rem;
+}
+@media only screen and (max-width: 21.375em) {
+  .cta__apple {
+    width: 3.375rem;
+    margin-right: auto;
+  }
 }
 .cta__google {
   width: 4.5625rem;
 }
+@media only screen and (max-width: 21.375em) {
+  .cta__google {
+    margin-left: auto;
+    width: 5rem;
+  }
+}
 .cta__pocket {
   width: 4.8125rem;
+}
+@media only screen and (max-width: 21.375em) {
+  .cta__pocket {
+    width: 5rem;
+    margin-right: auto;
+  }
 }
 
 .cta__form {

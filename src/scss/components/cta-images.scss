@@ -9,6 +9,12 @@
         gap: rem(10);
         margin-bottom: rem(48);
         padding: 0 rem(6);
+
+        @include mq-max(s) {
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(2, auto);
+            gap: rem(10) rem(30);
+        }
     }
 
     &__image {
@@ -17,17 +23,37 @@
 
     &__spotify {
         width: rem(56);
+
+        @include mq-max(s) {
+            margin-left: auto;
+            width: rem(65);
+        }
     }
 
     &__apple {
         width: rem(45);
+
+        @include mq-max(s) {
+            width: rem(54);
+            margin-right: auto;
+        }
     }
 
     &__google {
         width: rem(73);
+
+        @include mq-max(s) {
+            margin-left: auto;
+            width: rem(80);
+        }
     }
 
     &__pocket {
         width: rem(77);
+
+        @include mq-max(s) {
+            width: rem(80);
+            margin-right: auto;
+        }
     }
 }
