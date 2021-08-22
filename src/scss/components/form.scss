@@ -2,8 +2,46 @@
 
 .cta {
 
+    &__form {
+        position: relative;
+        padding-bottom: rem(19.2);
+    }
+
+    &__email {
+        all: unset;
+        display: block;
+        width: 100%;
+        margin-bottom: rem(16);
+        padding: rem(15) rem(32);
+        background-color: var(--dark-gray-input);
+        border-radius: rem(28);
+        box-sizing: border-box;
+        color: var(--white-text);
+        font-size: rem(14);
+        font-weight: var(--fw-bold);
+        text-align: left;
+    }
+
+    &__button {
+        all: unset;
+        display: inline-block;
+        width: 100%;
+        padding: rem(15) rem(32);
+        background-color: var(--green-heading-button);
+        border-radius: rem(28);
+        box-sizing: border-box;
+        color: var(--black-bg);
+        font-size: rem(14);
+        font-weight: var(--fw-bold);
+    }
+
     &__error-msg {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
         color: var(--red-error);
         font-size: rem(9);
+        font-weight: var(--fw-bold);
     }
 }

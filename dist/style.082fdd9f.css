@@ -91,9 +91,44 @@ a:active {
   width: 4.8125rem;
 }
 
+.cta__form {
+  position: relative;
+  padding-bottom: 1.2rem;
+}
+.cta__email {
+  all: unset;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.9375rem 2rem;
+  background-color: var(--dark-gray-input);
+  border-radius: 1.75rem;
+  box-sizing: border-box;
+  color: var(--white-text);
+  font-size: 0.875rem;
+  font-weight: var(--fw-bold);
+  text-align: left;
+}
+.cta__button {
+  all: unset;
+  display: inline-block;
+  width: 100%;
+  padding: 0.9375rem 2rem;
+  background-color: var(--green-heading-button);
+  border-radius: 1.75rem;
+  box-sizing: border-box;
+  color: var(--black-bg);
+  font-size: 0.875rem;
+  font-weight: var(--fw-bold);
+}
 .cta__error-msg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   color: var(--red-error);
   font-size: 0.5625rem;
+  font-weight: var(--fw-bold);
 }
 
 /*# sourceMappingURL=/style.082fdd9f.css.map */
