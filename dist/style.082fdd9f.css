@@ -29,13 +29,6 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  background-color: #121725;
-  background-image: url("/image-host.43d2a2de.jpg");
-  background-blend-mode: overlay;
-  background-position: 58.5%;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: var(--ff-chivo);
   font-size: 0.9375rem;
   font-weight: var(--fw-light);
@@ -49,11 +42,35 @@ a:active {
   text-decoration: none;
 }
 
+.pod-container {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("/image-host.43d2a2de.jpg");
+  background-blend-mode: multiply;
+  background-position: 58.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pod-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-bg);
+  opacity: 0.92;
+}
+
+.header {
+  position: relative;
+}
 .header__container {
   padding: 3.875rem 0 3.5625rem;
 }
 
 .cta {
+  position: relative;
   padding: 0 1.5rem 4.4375rem;
 }
 .cta__heading {
@@ -73,6 +90,9 @@ a:active {
   margin-bottom: 2.0625rem;
 }
 
+.cta {
+  position: relative;
+}
 .cta__images {
   display: grid;
   grid-template-columns: repeat(4, auto);

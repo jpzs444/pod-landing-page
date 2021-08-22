@@ -1,6 +1,7 @@
 @use '../util/' as *;
 
 .header {
+    position: relative;
 
     &__container {
         padding: rem(62) 0 rem(57);

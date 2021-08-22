@@ -2,6 +2,8 @@
 
 .cta {
 
+    position: relative;
+
     &__images {
         display: grid;
         grid-template-columns: repeat(4, auto);
