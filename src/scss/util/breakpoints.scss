@@ -1,0 +1,24 @@
+@use "sass:map";
+
+// 768px, 1024px
+$breakpoints: (
+    'md': '48em',
+    'lg': '64em',
+);
+
+// 342px
+$breakpoints-max: (
+    's': '21.375em'
+);
+
+@mixin mq($size) {
+    @media only screen and (min-width: map-get($breakpoints, $size)) {
+        @content;
+    }
+}
+
+@mixin mq-max($size) {
+    @media only screen and (max-width: map-get($breakpoints-max, $size)) {
+        @content;
+    }
+}
