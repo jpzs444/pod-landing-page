@@ -29,7 +29,13 @@ html {
 }
 
 body {
-  background-color: var(--black-bg);
+  min-height: 100vh;
+  background-color: #121725;
+  background-image: url("/image-host.43d2a2de.jpg");
+  background-blend-mode: overlay;
+  background-position: 58.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: var(--ff-chivo);
   font-size: 0.9375rem;
   font-weight: var(--fw-light);

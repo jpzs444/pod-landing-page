@@ -14,7 +14,13 @@ html {
 }
 
 body {
-    background-color: var(--black-bg);
+    min-height: 100vh;
+    background-color: rgba(#121725, 1);
+    background-image: url("/assets/desktop/image-host.jpg");
+    background-blend-mode: overlay;
+    background-position: 58.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: var(--ff-chivo);
     font-size: rem(15);
     font-weight: var(--fw-light);
