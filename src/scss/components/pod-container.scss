@@ -1,5 +1,9 @@
 .pod-container {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     background-image: url("/assets/desktop/image-host.jpg");
     background-blend-mode: multiply;
