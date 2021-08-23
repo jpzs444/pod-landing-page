@@ -6,9 +6,10 @@ $breakpoints: (
     'lg': '64em',
 );
 
-// 342px
+// 342px, 768px
 $breakpoints-max: (
-    's': '21.375em'
+    's': '21.375em',
+    'md': '48em',
 );
 
 @mixin mq($size) {

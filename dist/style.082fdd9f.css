@@ -93,6 +93,11 @@ a:active {
   line-height: 1.5625rem;
   margin-bottom: 2.0625rem;
 }
+@media only screen and (max-width: 48em) {
+  .cta {
+    max-width: 31.2rem;
+  }
+}
 
 .cta {
   position: relative;
