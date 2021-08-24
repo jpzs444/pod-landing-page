@@ -33,6 +33,10 @@
         color: var(--black-bg);
         font-size: rem(14);
         font-weight: var(--fw-bold);
+
+        @include mq(md) {
+            text-align: center;
+        }
     }
 
     &__error-msg {
@@ -43,5 +47,9 @@
         color: var(--red-error);
         font-size: rem(9);
         font-weight: var(--fw-bold);
+
+        @include mq(md) {
+            font-size: rem(12);
+        }
     }
 }

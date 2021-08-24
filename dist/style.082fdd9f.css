@@ -35,6 +35,12 @@ body {
   color: var(--light-gray-text);
   text-align: center;
 }
+@media only screen and (min-width: 48em) {
+  body {
+    font-size: 1.125rem;
+    text-align: left;
+  }
+}
 
 a,
 a:visited,
@@ -85,6 +91,12 @@ a:active {
   line-height: 2.375rem;
   text-transform: uppercase;
 }
+@media only screen and (min-width: 48em) {
+  .cta__heading {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
 .cta__heading-span {
   color: var(--white-text);
   display: block;
@@ -92,6 +104,11 @@ a:active {
 .cta__description {
   line-height: 1.5625rem;
   margin-bottom: 2.0625rem;
+}
+@media only screen and (min-width: 48em) {
+  .cta__description {
+    line-height: 1.75rem;
+  }
 }
 @media only screen and (max-width: 47.96875em) {
   .cta {
@@ -129,6 +146,11 @@ a:active {
     width: 4.0625rem;
   }
 }
+@media only screen and (min-width: 48em) {
+  .cta__spotify {
+    width: 6rem;
+  }
+}
 .cta__apple {
   width: 2.8125rem;
 }
@@ -136,6 +158,11 @@ a:active {
   .cta__apple {
     width: 3.375rem;
     margin-right: auto;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .cta__apple {
+    width: 4.875rem;
   }
 }
 .cta__google {
@@ -147,6 +174,11 @@ a:active {
     width: 5rem;
   }
 }
+@media only screen and (min-width: 48em) {
+  .cta__google {
+    width: 7.8125rem;
+  }
+}
 .cta__pocket {
   width: 4.8125rem;
 }
@@ -154,6 +186,11 @@ a:active {
   .cta__pocket {
     width: 5rem;
     margin-right: auto;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .cta__pocket {
+    width: 8.0625rem;
   }
 }
 
@@ -187,6 +224,11 @@ a:active {
   font-size: 0.875rem;
   font-weight: var(--fw-bold);
 }
+@media only screen and (min-width: 48em) {
+  .cta__button {
+    text-align: center;
+  }
+}
 .cta__error-msg {
   position: absolute;
   left: 0;
@@ -195,6 +237,11 @@ a:active {
   color: var(--red-error);
   font-size: 0.5625rem;
   font-weight: var(--fw-bold);
+}
+@media only screen and (min-width: 48em) {
+  .cta__error-msg {
+    font-size: 0.75rem;
+  }
 }
 
 /*# sourceMappingURL=/style.082fdd9f.css.map */

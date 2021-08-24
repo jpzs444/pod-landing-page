@@ -19,4 +19,9 @@ body {
     font-weight: var(--fw-light);
     color: var(--light-gray-text);
     text-align: center;
+
+    @include mq(md) {
+        font-size: rem(18);
+        text-align: left;
+    }
 }
