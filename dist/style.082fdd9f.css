@@ -55,9 +55,8 @@ a:active {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url("/image-host.43d2a2de.jpg");
-  background-blend-mode: multiply;
-  background-position: 58.5%;
+  background-image: url("/image-host.cf67a10a.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
