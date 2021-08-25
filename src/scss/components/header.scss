@@ -4,10 +4,19 @@
     position: relative;
 
     &__container {
-        padding: rem(62) 0 rem(57);
+        margin: rem(62) 0 rem(57);
 
         @include mq(md) {
-            padding: rem(50) rem(39);
+            margin: rem(50) rem(594.15) rem(50) rem(39);
         }
     }
+
+    @include mq(md) {
+        width: 100%;
+        max-width: rem(964);
+    } 
+
+    // @include mq(md) {
+    //     align-self: flex-start;
+    // }
 }

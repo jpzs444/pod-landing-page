@@ -29,7 +29,6 @@
     }
 
     @include mq(md) {
-        display: block;
         background-image: url("/assets/tablet/image-host.jpg");
         background-position: top right;
         background-size: rem(491);

@@ -1,0 +1,18 @@
+@use '../util/' as *;
+
+main {
+    position: relative;
+
+    &::after {
+        @include mq(md) {
+            content: '';
+            position: absolute;
+            top: rem(759.5);
+            right: 0;
+            bottom: 0;
+            left: rem(30);
+            background-image: url("/assets/desktop/bg-pattern-dots.svg");
+            background-repeat: no-repeat;
+        }
+    }
+}

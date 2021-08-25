@@ -78,7 +78,6 @@ a:active {
 }
 @media only screen and (min-width: 48em) {
   .pod-container {
-    display: block;
     background-image: url("/image-host.a035cb48.jpg");
     background-position: top right;
     background-size: 30.6875rem;
@@ -89,11 +88,33 @@ a:active {
   position: relative;
 }
 .header__container {
-  padding: 3.875rem 0 3.5625rem;
+  margin: 3.875rem 0 3.5625rem;
 }
 @media only screen and (min-width: 48em) {
   .header__container {
-    padding: 3.125rem 2.4375rem;
+    margin: 3.125rem 37.134375rem 3.125rem 2.4375rem;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .header {
+    width: 100%;
+    max-width: 60.25rem;
+  }
+}
+
+main {
+  position: relative;
+}
+@media only screen and (min-width: 48em) {
+  main::after {
+    content: "";
+    position: absolute;
+    top: 47.46875rem;
+    right: 0;
+    bottom: 0;
+    left: 1.875rem;
+    background-image: url("/bg-pattern-dots.3d5293f0.svg");
+    background-repeat: no-repeat;
   }
 }
 
@@ -145,10 +166,9 @@ a:active {
 @media only screen and (min-width: 48em) {
   .cta {
     background-color: var(--black-bg);
-    margin-top: 6.375rem;
-    margin-right: 5.875rem;
-    margin-left: 2.4375rem;
+    margin: 6.375rem 5.875rem 14.78125rem 2.4375rem;
     padding-top: 5.8125rem;
+    max-width: 51.9375rem;
   }
 }
 
@@ -175,6 +195,7 @@ a:active {
     width: 33.5rem;
     justify-content: space-between;
     align-content: center;
+    margin-bottom: 0;
     padding: 0;
   }
 }
