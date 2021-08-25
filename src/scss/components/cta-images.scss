@@ -17,6 +17,13 @@
             grid-template-rows: repeat(2, auto);
             gap: rem(10) rem(30);
         }
+
+        @include mq(md) {
+            width: rem(536);
+            justify-content: space-between;
+            align-content: center;
+            padding: 0;
+        }
     }
 
     &__image {

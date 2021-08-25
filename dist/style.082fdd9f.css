@@ -78,6 +78,7 @@ a:active {
 }
 @media only screen and (min-width: 48em) {
   .pod-container {
+    display: block;
     background-image: url("/image-host.a035cb48.jpg");
     background-position: top right;
     background-size: 30.6875rem;
@@ -90,10 +91,15 @@ a:active {
 .header__container {
   padding: 3.875rem 0 3.5625rem;
 }
+@media only screen and (min-width: 48em) {
+  .header__container {
+    padding: 3.125rem 2.4375rem;
+  }
+}
 
 .cta {
   position: relative;
-  padding: 0 1.5rem 4.4375rem;
+  margin: 0 1.5rem 4.4375rem;
 }
 .cta__heading {
   margin-bottom: 1rem;
@@ -107,6 +113,7 @@ a:active {
   .cta__heading {
     font-size: 3rem;
     line-height: 3.5rem;
+    margin-bottom: 1.9375rem;
   }
 }
 .cta__heading-span {
@@ -120,11 +127,28 @@ a:active {
 @media only screen and (min-width: 48em) {
   .cta__description {
     line-height: 1.75rem;
+    padding-right: 11.875rem;
+    margin-bottom: 2.5rem;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .cta__arrangement {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 @media only screen and (max-width: 47.96875em) {
   .cta {
     max-width: 31.2rem;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .cta {
+    background-color: var(--black-bg);
+    margin-top: 6.375rem;
+    margin-right: 5.875rem;
+    margin-left: 2.4375rem;
+    padding-top: 5.8125rem;
   }
 }
 
@@ -144,6 +168,14 @@ a:active {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
     gap: 0.625rem 1.875rem;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .cta__images {
+    width: 33.5rem;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0;
   }
 }
 .cta__image {
@@ -210,6 +242,11 @@ a:active {
   position: relative;
   padding-bottom: 1.2rem;
 }
+@media only screen and (min-width: 48em) {
+  .cta__form {
+    padding-bottom: 4rem;
+  }
+}
 .cta__email {
   all: unset;
   display: block;
@@ -224,11 +261,17 @@ a:active {
   font-weight: var(--fw-bold);
   text-align: left;
 }
+@media only screen and (min-width: 48em) {
+  .cta__email {
+    padding: 1.25rem 12.4375rem 1.25rem 2rem;
+    width: 26.6875rem;
+  }
+}
 .cta__button {
   all: unset;
   display: inline-block;
   width: 100%;
-  padding: 0.9375rem 2rem;
+  padding: 0.9375rem 0;
   background-color: var(--green-heading-button);
   border-radius: 1.75rem;
   box-sizing: border-box;
@@ -238,7 +281,13 @@ a:active {
 }
 @media only screen and (min-width: 48em) {
   .cta__button {
+    position: absolute;
+    height: 2.875rem;
+    width: 10.125rem;
     text-align: center;
+    top: 0.3125rem;
+    left: 16.25rem;
+    padding: 0.625rem 0;
   }
 }
 .cta__error-msg {
@@ -253,6 +302,8 @@ a:active {
 @media only screen and (min-width: 48em) {
   .cta__error-msg {
     font-size: 0.75rem;
+    top: 4rem;
+    left: 2rem;
   }
 }
 
