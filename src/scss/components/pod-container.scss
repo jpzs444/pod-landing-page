@@ -33,4 +33,19 @@
         background-position: top right;
         background-size: rem(491);
     }
+
+    @include mq(lg) {
+        background-image: url("/assets/desktop/image-host.jpg");
+        background-position: 180% 43%;
+        background-size: rem(850);
+    }
+
+    @include mq(lg-2) {
+        background-position: 130% 43%;
+    }
+
+    @include mq(xl) {
+        background-position: 50%;
+        background-size: rem(888);
+    }
 }

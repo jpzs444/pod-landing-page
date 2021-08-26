@@ -14,5 +14,10 @@ main {
             background-image: url("/assets/desktop/bg-pattern-dots.svg");
             background-repeat: no-repeat;
         }
+
+        @include mq(lg) {
+            top: rem(550);
+            left: rem(790);
+        }
     }
 }

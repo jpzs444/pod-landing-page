@@ -26,8 +26,8 @@
             padding: 0;
         }
 
-        @include mq(lg) {
-            column-gap: rem(40);
+        @include mq(xl) {
+        column-gap: rem(40);
         }
     }
 

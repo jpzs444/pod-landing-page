@@ -23,6 +23,9 @@
             font-size: rem(52);
             line-height: rem(62);
             margin-bottom: rem(24);
+        }
+
+        @include mq(xl) {
             padding-right: rem(58);
         }
     }
@@ -42,7 +45,7 @@
             margin-bottom: rem(40);
         }
 
-        @include mq(lg) {
+        @include mq(xl) {
             padding-right: rem(278);
         }
     }
@@ -66,6 +69,11 @@
     }
 
     @include mq(lg) {
+        margin: rem(102) rem(236) rem(106) rem(39);
+        max-width: rem(690);
+    }
+
+    @include mq(xl) {
         margin: rem(1) rem(552) rem(130) rem(165);
         padding-top: rem(88);
         max-width: rem(723);

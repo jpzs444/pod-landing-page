@@ -83,6 +83,24 @@ a:active {
     background-size: 30.6875rem;
   }
 }
+@media only screen and (min-width: 64em) {
+  .pod-container {
+    background-image: url("/image-host.43d2a2de.jpg");
+    background-position: 180% 43%;
+    background-size: 53.125rem;
+  }
+}
+@media only screen and (min-width: 70.625em) {
+  .pod-container {
+    background-position: 130% 43%;
+  }
+}
+@media only screen and (min-width: 90em) {
+  .pod-container {
+    background-position: 50%;
+    background-size: 55.5rem;
+  }
+}
 
 .header {
   position: relative;
@@ -95,7 +113,7 @@ a:active {
     margin: 3.125rem 37.134375rem 3.125rem 2.4375rem;
   }
 }
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 90em) {
   .header__container {
     margin: 6.375rem 71.259375rem 6.375rem 10.3125rem;
   }
@@ -106,7 +124,7 @@ a:active {
     max-width: 60.25rem;
   }
 }
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 90em) {
   .header {
     max-width: 90rem;
   }
@@ -125,6 +143,12 @@ main {
     left: 1.875rem;
     background-image: url("/bg-pattern-dots.3d5293f0.svg");
     background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 64em) {
+  main::after {
+    top: 34.375rem;
+    left: 49.375rem;
   }
 }
 
@@ -152,6 +176,10 @@ main {
     font-size: 3.25rem;
     line-height: 3.875rem;
     margin-bottom: 1.5rem;
+  }
+}
+@media only screen and (min-width: 90em) {
+  .cta__heading {
     padding-right: 3.625rem;
   }
 }
@@ -170,7 +198,7 @@ main {
     margin-bottom: 2.5rem;
   }
 }
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 90em) {
   .cta__description {
     padding-right: 17.375rem;
   }
@@ -195,6 +223,12 @@ main {
   }
 }
 @media only screen and (min-width: 64em) {
+  .cta {
+    margin: 6.375rem 14.75rem 6.625rem 2.4375rem;
+    max-width: 43.125rem;
+  }
+}
+@media only screen and (min-width: 90em) {
   .cta {
     margin: 0.0625rem 34.5rem 8.125rem 10.3125rem;
     padding-top: 5.5rem;
@@ -229,7 +263,7 @@ main {
     padding: 0;
   }
 }
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 90em) {
   .cta__images {
     column-gap: 2.5rem;
   }
@@ -301,6 +335,11 @@ main {
 @media only screen and (min-width: 48em) {
   .cta__form {
     padding-bottom: 4rem;
+  }
+}
+@media only screen and (min-width: 90em) {
+  .cta__form {
+    padding-bottom: 3rem;
   }
 }
 .cta__email {
