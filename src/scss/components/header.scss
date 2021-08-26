@@ -9,12 +9,20 @@
         @include mq(md) {
             margin: rem(50) rem(594.15) rem(50) rem(39);
         }
+
+        @include mq(lg) {
+            margin: rem(102) rem(1140.15) rem(102) rem(165); 
+        }
     }
 
     @include mq(md) {
         width: 100%;
         max-width: rem(964);
-    } 
+    }
+    
+    @include mq(lg) {
+        max-width: rem(1440);
+    }
 
     // @include mq(md) {
     //     align-self: flex-start;

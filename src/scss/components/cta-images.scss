@@ -25,6 +25,10 @@
             margin-bottom: 0;
             padding: 0;
         }
+
+        @include mq(lg) {
+            column-gap: rem(40);
+        }
     }
 
     &__image {

@@ -18,6 +18,13 @@
             line-height: rem(56);
             margin-bottom: rem(31);
         }
+
+        @include mq(lg) {
+            font-size: rem(52);
+            line-height: rem(62);
+            margin-bottom: rem(24);
+            padding-right: rem(58);
+        }
     }
 
     &__heading-span {
@@ -33,6 +40,10 @@
             line-height: rem(28);
             padding-right: rem(190);
             margin-bottom: rem(40);
+        }
+
+        @include mq(lg) {
+            padding-right: rem(278);
         }
     }
 
@@ -52,5 +63,11 @@
         margin: rem(102) rem(94) rem(236.5) rem(39);
         padding-top: rem(93);
         max-width: rem(831);
+    }
+
+    @include mq(lg) {
+        margin: rem(1) rem(552) rem(130) rem(165);
+        padding-top: rem(88);
+        max-width: rem(723);
     }
 }

@@ -95,10 +95,20 @@ a:active {
     margin: 3.125rem 37.134375rem 3.125rem 2.4375rem;
   }
 }
+@media only screen and (min-width: 64em) {
+  .header__container {
+    margin: 6.375rem 71.259375rem 6.375rem 10.3125rem;
+  }
+}
 @media only screen and (min-width: 48em) {
   .header {
     width: 100%;
     max-width: 60.25rem;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .header {
+    max-width: 90rem;
   }
 }
 
@@ -137,6 +147,14 @@ main {
     margin-bottom: 1.9375rem;
   }
 }
+@media only screen and (min-width: 64em) {
+  .cta__heading {
+    font-size: 3.25rem;
+    line-height: 3.875rem;
+    margin-bottom: 1.5rem;
+    padding-right: 3.625rem;
+  }
+}
 .cta__heading-span {
   color: var(--white-text);
   display: block;
@@ -150,6 +168,11 @@ main {
     line-height: 1.75rem;
     padding-right: 11.875rem;
     margin-bottom: 2.5rem;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .cta__description {
+    padding-right: 17.375rem;
   }
 }
 @media only screen and (min-width: 48em) {
@@ -169,6 +192,13 @@ main {
     margin: 6.375rem 5.875rem 14.78125rem 2.4375rem;
     padding-top: 5.8125rem;
     max-width: 51.9375rem;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .cta {
+    margin: 0.0625rem 34.5rem 8.125rem 10.3125rem;
+    padding-top: 5.5rem;
+    max-width: 45.1875rem;
   }
 }
 
@@ -197,6 +227,11 @@ main {
     align-content: center;
     margin-bottom: 0;
     padding: 0;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .cta__images {
+    column-gap: 2.5rem;
   }
 }
 .cta__image {
