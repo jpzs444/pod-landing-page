@@ -28,6 +28,21 @@
         }
     }
 
+    // &::after {
+    //     @include mq(xl) {
+    //         content: '';
+    //         position: absolute;
+    //         top: rem(135);
+    //         right: 0;
+    //         bottom: 0;
+    //         left: rem(552);
+    //         background-image: url("/assets/desktop/image-host.jpg");
+    //         background-repeat: no-repeat;
+    //         background-size: rem(888);
+    //         z-index: -1;
+    //     }
+    // }
+
     @include mq(md) {
         background-image: url("/assets/tablet/image-host.jpg");
         background-position: top right;
@@ -45,7 +60,8 @@
     }
 
     @include mq(xl) {
-        background-position: 100% 51%;
+        // background-image: none;
+        background-position: 100% 50%;
         background-size: rem(888);
     }
 }

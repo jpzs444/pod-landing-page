@@ -97,7 +97,7 @@ a:active {
 }
 @media only screen and (min-width: 90em) {
   .pod-container {
-    background-position: 100% 51%;
+    background-position: 100% 50%;
     background-size: 55.5rem;
   }
 }
