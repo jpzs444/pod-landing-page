@@ -19,5 +19,10 @@ main {
             top: rem(550);
             left: rem(790);
         }
+
+        @include mq(xl) {
+            top: rem(458);
+            left: rem(1207);
+        }
     }
 }

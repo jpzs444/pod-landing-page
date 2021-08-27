@@ -45,7 +45,7 @@
     }
 
     @include mq(xl) {
-        background-position: 50%;
+        background-position: 100% 51%;
         background-size: rem(888);
     }
 }
