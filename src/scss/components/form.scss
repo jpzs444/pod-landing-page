@@ -48,6 +48,7 @@
         color: var(--black-bg);
         font-size: rem(14);
         font-weight: var(--fw-bold);
+        transition: background-color 150ms ease-in;
 
         @include mq(md) {
             position: absolute;
@@ -58,6 +59,11 @@
             left: rem(260);
             padding: rem(10) 0;
         }
+    }
+
+    &__button:hover {
+        background-color: var(--green-button-hover);
+        cursor: pointer;
     }
 
     &__error-msg {

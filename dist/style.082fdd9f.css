@@ -420,6 +420,7 @@ main {
   color: var(--black-bg);
   font-size: 0.875rem;
   font-weight: var(--fw-bold);
+  transition: background-color 150ms ease-in;
 }
 @media only screen and (min-width: 48em) {
   .cta__button {
@@ -431,6 +432,10 @@ main {
     left: 16.25rem;
     padding: 0.625rem 0;
   }
+}
+.cta__button:hover {
+  background-color: var(--green-button-hover);
+  cursor: pointer;
 }
 .cta__error-msg {
   position: absolute;
