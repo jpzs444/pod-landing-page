@@ -120,19 +120,21 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"index.js":[function(require,module,exports) {
 var emailInput = document.getElementById("email-input");
 var requestButton = document.getElementById("request-button");
-var ctaErrorMessage = document.getElementById("cta-error-msg");
-var regExValidEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+var ctaErrorMessage = document.getElementById("cta-error-msg"); // regular expression to validate an email
+
+var regExValidEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/; // emailInput value becomes empty when webpage is refreshed
 
 window.onload = function () {
   emailInput.value = "";
-};
+}; // trigger validateEmail function when enter key (13) is pressed in emailInput
 
-requestButton.addEventListener("click", validateEmail);
+
 emailInput.addEventListener("keyup", function (event) {
   if (event.keyCode === 13) {
     validateEmail();
   }
 });
+requestButton.addEventListener("click", validateEmail);
 
 function validateEmail() {
   if (regExValidEmail.test(emailInput.value)) {
