@@ -5,9 +5,11 @@
     &__form {
         position: relative;
         padding-bottom: rem(19.2);
+        animation-delay: 1s;
 
         @include mq(md) {
             padding-bottom: rem(64);
+            animation-delay: 700ms;
         }
 
         @include mq(xl) {

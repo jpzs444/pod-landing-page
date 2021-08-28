@@ -1,0 +1,14 @@
+.fade-in-bottom {
+	animation: fade-in-bottom 0.6s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
+}
+
+@keyframes fade-in-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

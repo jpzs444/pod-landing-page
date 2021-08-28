@@ -38,6 +38,7 @@
     &__description {
         line-height: rem(25);
         margin-bottom: rem(33);
+        animation-delay: 350ms;
 
         @include mq(md) {
             line-height: rem(28);

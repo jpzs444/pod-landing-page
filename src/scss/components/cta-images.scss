@@ -12,7 +12,8 @@
         margin-bottom: rem(48);
         padding: 0 rem(6);
         opacity: 0.6;
-
+        animation-delay: 700ms;
+        
         @include mq-max(s) {
             grid-template-columns: repeat(2, auto);
             grid-template-rows: repeat(2, auto);
@@ -25,6 +26,7 @@
             align-content: center;
             margin-bottom: 0;
             padding: 0;
+            animation-delay: 1s;
         }
 
         @include mq(xl) {
