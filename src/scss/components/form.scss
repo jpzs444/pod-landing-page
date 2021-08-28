@@ -5,7 +5,7 @@
     &__form {
         position: relative;
         padding-bottom: rem(19.2);
-        animation-delay: 1s;
+        animation-delay: 1.3s;
 
         @include mq(md) {
             padding-bottom: rem(64);

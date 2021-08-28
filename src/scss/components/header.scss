@@ -5,6 +5,7 @@
 
     &__container {
         margin: rem(62) 0 rem(57);
+        animation-delay: 1.5s;
 
         @include mq(md) {
             margin: rem(50) rem(594.15) rem(50) rem(39);
